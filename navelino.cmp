@@ -1,17 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-30 BZR 5691)-product   date = sábado, 27 '27e' junio '27e' 2015 17:16:28
+Cmp-Mod V01 Created by Cvpcb (2015-05-30 BZR 5691)-product   date = lunes, 29 '29e' junio '29e' 2015 01:35:00
 
 BeginCmp
-TimeStamp = /558D4895;
-Reference = C1;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+TimeStamp = /558F40B1;
+Reference = ADC6;
+ValeurCmp = CONN_1;
+IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
 EndCmp
 
 BeginCmp
-TimeStamp = /558D48E1;
+TimeStamp = /558F4161;
+Reference = ADC7;
+ValeurCmp = CONN_1;
+IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /559028A0;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55902AFC;
 Reference = C2;
-ValeurCmp = 22uF;
-IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
@@ -24,7 +38,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55897E19;
 Reference = C4;
-ValeurCmp = C;
+ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -337,8 +351,22 @@ IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
 EndCmp
 
 BeginCmp
+TimeStamp = /558F415B;
+Reference = PD7;
+ValeurCmp = CONN_1;
+IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
+EndCmp
+
+BeginCmp
 TimeStamp = /558EBD96;
 Reference = PGND1;
+ValeurCmp = CONN_1;
+IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /558F40AB;
+Reference = PRAW1;
 ValeurCmp = CONN_1;
 IdModule  = Wire_Pads:SolderWirePad_single_1mmDrill;
 EndCmp
@@ -451,8 +479,8 @@ EndCmp
 BeginCmp
 TimeStamp = /558CA477;
 Reference = U1;
-ValeurCmp = CJA1117B-3.3;
-IdModule  = Housings_SOT-89:SOT89-3_Housing_Handsoldering;
+ValeurCmp = XC6204B332MR;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
