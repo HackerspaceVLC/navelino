@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-30 BZR 5691)-product   date = lunes, 29 '29e' junio '29e' 2015 01:35:00
+Cmp-Mod V01 Created by Cvpcb (2015-05-30 BZR 5691)-product   date = miércoles, 14 '14e' octubre '14e' 2015 00:10:26
 
 BeginCmp
 TimeStamp = /558F40B1;
@@ -67,70 +67,70 @@ BeginCmp
 TimeStamp = /55898199;
 Reference = D1;
 ValeurCmp = BLUE;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558981ED;
 Reference = D2;
 ValeurCmp = BLUE;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589825F;
 Reference = D3;
 ValeurCmp = BLUE;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /55898292;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B7E1;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B7E7;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B7ED;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B7F3;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C6AD4;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C6ADA;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -144,70 +144,70 @@ BeginCmp
 TimeStamp = /558F197E;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F1CA7;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F1D6F;
 Reference = JP3;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F1E3B;
 Reference = JP4;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F20EA;
 Reference = JP5;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F21BF;
 Reference = JP6;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F2295;
 Reference = JP7;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F242C;
 Reference = JP8;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F2587;
 Reference = JP9;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
 TimeStamp = /558F266B;
 Reference = JP10;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = tmw:PCB_JUMPER;
 EndCmp
 
 BeginCmp
@@ -389,70 +389,70 @@ BeginCmp
 TimeStamp = /5589B876;
 Reference = R1;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B903;
 Reference = R2;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B991;
 Reference = R3;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589B997;
 Reference = R4;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589BA53;
 Reference = R5;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589BA59;
 Reference = R6;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589BA5F;
 Reference = R7;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5589BA65;
 Reference = R8;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C6AE0;
 Reference = R9;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C6AE6;
 Reference = R10;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
