@@ -486,19 +486,11 @@ F 3 "" H 7700 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 4350 3050 4450
-Wire Wire Line
-	3050 4450 3050 4550
-Wire Wire Line
-	3050 4550 3050 4750
+	3050 4350 3050 4750
 Connection ~ 3050 4550
 Connection ~ 3050 4450
 Wire Wire Line
-	3050 2150 3050 2250
-Wire Wire Line
-	3050 2250 3050 2350
-Wire Wire Line
-	3050 2350 3050 2550
+	3050 2150 3050 2550
 Connection ~ 3050 2350
 Wire Wire Line
 	1800 4500 1800 4400
@@ -507,29 +499,7 @@ Wire Wire Line
 Connection ~ 1800 5000
 Connection ~ 3050 2250
 Wire Wire Line
-	7700 2050 7700 2350
-Wire Wire Line
-	7700 2350 7700 2650
-Wire Wire Line
-	7700 2650 7700 2950
-Wire Wire Line
-	7700 2950 7700 3250
-Wire Wire Line
-	7700 3250 7700 3550
-Wire Wire Line
-	7700 3550 7700 3850
-Wire Wire Line
-	7700 3850 7700 4150
-Wire Wire Line
-	7700 4150 7700 4450
-Wire Wire Line
-	7700 4450 7700 4700
-Wire Wire Line
-	7700 4700 7700 5000
-Wire Wire Line
-	7700 5000 7700 5500
-Wire Wire Line
-	7700 5500 7700 5550
+	7700 2050 7700 5550
 Connection ~ 7700 4150
 Connection ~ 7700 3850
 Connection ~ 7700 3550
@@ -559,9 +529,7 @@ F 4 "310030046" H 3750 1200 60  0001 C CNN "SEEED"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 1150 3100 1150
-Wire Wire Line
-	3100 1150 3300 1150
+	2800 1150 3300 1150
 Text GLabel 2800 1150 0    39   Input ~ 0
 RAW
 Connection ~ 3100 1150
@@ -577,9 +545,7 @@ F 3 "" H 4400 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 1100 4400 1150
-Wire Wire Line
-	4400 1150 4400 1300
+	4400 1100 4400 1300
 $Comp
 L GND #PWR08
 U 1 1 558D4E13
@@ -676,9 +642,7 @@ F 4 "302010150" H 5400 1650 60  0001 C CNN "SEEED"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 1050 5600 1350
-Wire Wire Line
-	5600 1350 5600 1650
+	5600 1050 5600 1650
 $Comp
 L GND #PWR011
 U 1 1 558ED928
@@ -1164,9 +1128,7 @@ A7
 Wire Wire Line
 	2900 2850 3050 2850
 Wire Wire Line
-	1650 5000 1800 5000
-Wire Wire Line
-	1800 5000 1950 5000
+	1650 5000 1950 5000
 $Comp
 L Csmall C1
 U 1 1 559028A0
@@ -1199,9 +1161,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1300 3300 1300
 Wire Wire Line
-	3100 1500 3750 1500
-Wire Wire Line
-	3750 1500 4400 1500
+	3100 1500 4400 1500
 Connection ~ 4400 1150
 Connection ~ 3750 1500
 Wire Wire Line
@@ -1270,4 +1230,28 @@ $EndComp
 NoConn ~ 1050 3900
 NoConn ~ 1050 4000
 NoConn ~ 1050 4100
+$Comp
+L CONN_1 M1
+U 1 1 567431FA
+P 6550 700
+F 0 "M1" H 6630 700 40  0000 L CNN
+F 1 "CONN_1" H 6550 755 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6550 700 60  0001 C CNN
+F 3 "" H 6550 700 60  0000 C CNN
+	1    6550 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 M2
+U 1 1 567432F1
+P 6550 850
+F 0 "M2" H 6630 850 40  0000 L CNN
+F 1 "CONN_1" H 6550 905 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6550 850 60  0001 C CNN
+F 3 "" H 6550 850 60  0000 C CNN
+	1    6550 850 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6400 700 
+NoConn ~ 6400 850 
 $EndSCHEMATC
