@@ -575,9 +575,9 @@ Text GLabel 1100 3050 0    39   Input ~ 0
 GND
 Text GLabel 1100 3250 0    39   Input ~ 0
 VCC
-Text GLabel 1100 3350 0    39   Input ~ 0
-TXO
 Text GLabel 1100 3450 0    39   Input ~ 0
+TXO
+Text GLabel 1100 3350 0    39   Input ~ 0
 RXI
 Text GLabel 1100 3150 0    39   Input ~ 0
 GND
